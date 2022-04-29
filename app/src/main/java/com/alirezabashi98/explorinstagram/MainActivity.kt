@@ -40,6 +40,7 @@ fun DefaultPreview() {
             modifier = Modifier.fillMaxSize(),
             color = MaterialTheme.colors.background
         ) {
+
             SetupNavGraph(navController = navController)
         }
     }
